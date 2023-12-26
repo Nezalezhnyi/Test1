@@ -1,0 +1,11 @@
+.alpha {
+    color: lime;
+    background-color: rgb(73, 7, 7);
+    display: inline;
+}
+
+div,
+span {
+    border: 2px solid green;
+}
+
