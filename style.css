@@ -1,11 +1,44 @@
+/*
+* {
+    color: white;
+    background-color: black;
+}
+*/
+
 .alpha {
     color: lime;
     background-color: rgb(73, 7, 7);
     display: inline;
 }
 
-div,
+.beta,
 span {
     border: 2px solid green;
+}
+
+#alpha {
+    border: 2px solid rgb(255, 0, 200);
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 28px 0 0 0;
+    background-color: rgb(7, 74, 220);
+    border-radius: 20%;
+    font-family: Impact, Helvetica, sans-serif;
+    transition: background-color 0.3s;
+}
+#alpha:hover {
+    background-color: rgb(8, 85, 252);
+}
+
+.alpha1 {
+    color: yellow;
+    margin: 10px 0 0 0;
+    border: 2px solid black;
+    display: flex;
+    width: 500px;
+    height: 200px;
+    
 }
 
