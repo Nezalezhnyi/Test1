@@ -5,7 +5,8 @@
 }
 */
 
-.alpha {
+
+.alpha0 {
     color: lime;
     background-color: rgb(73, 7, 7);
     display: inline;
@@ -16,7 +17,35 @@ span {
     border: 2px solid green;
 }
 
-#alpha {
+.alpha:hover {
+    background-color: rgb(8, 85, 252);
+}
+a:link {
+    color: yellow;
+    text-decoration: none;
+}
+a:visited {
+    color: yellow;
+    text-decoration: none;
+}
+
+.alpha1 {
+    color: yellow;
+    margin: 10px 0 0 0;
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-end; */
+    /* justify-content: flex-end; */
+}
+
+.alpha {
     border: 2px solid rgb(255, 0, 200);
     width: 80px;
     height: 80px;
@@ -28,17 +57,59 @@ span {
     font-family: Impact, Helvetica, sans-serif;
     transition: background-color 0.3s;
 }
-#alpha:hover {
-    background-color: rgb(8, 85, 252);
-}
+/*
+justify-content: (location); - vyrivnjuje bloky na main-visi 
+align-items: (location); - vyrivnjuje blocky na cross-visi:
 
-.alpha1 {
-    color: yellow;
-    margin: 10px 0 0 0;
-    border: 2px solid black;
-    display: flex;
+(location):
+{
+flex-start - livoruč 
+flex-end - pravoruč 
+flex-center - centr 
+space-between - po odnomu elementu livoruč, poseredyni ta pravoruč
+space-around - te ž same, ale livoruč ta pravoruč je vidstan’
+space-evenly - te ž same, ale rivnomirno rozbodiljaje vidstan’ 
+baseline - vyrivnjuje tekst blokiv v odnu liniju (osoblyvo pomitno za riznym rozmirom šryftiv)
+}
+*/
+
+
+
+.new_box {
+    border: 2px solid rgb(6, 7, 72);
+    margin: 5px 0 0 0;
     width: 500px;
     height: 200px;
-    
+    display: flex;
+    flex-wrap: wrap;
+   
 }
+
+.pid_box,
+.knopka {
+    color: white;
+    background-color: rgb(237, 140, 192);
+    border: 2px solid rgb(98, 8, 81);
+    border-radius: 10px;
+    padding: 30px 0 0 0;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.knopka {
+    margin: 20px 0 0 0;
+    width: 150px;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+.knopka:hover {
+    background-color: rgb(189, 68, 132);
+    color: white;
+}
+
+
+
+
 
